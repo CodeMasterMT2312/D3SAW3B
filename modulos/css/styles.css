@@ -1,0 +1,65 @@
+/* Estilos básicos para los componentes */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header,
+footer {
+    background-color: #232f3e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.product-details,
+.reviews {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-details h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.product-details p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.reviews h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.review {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.review p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
